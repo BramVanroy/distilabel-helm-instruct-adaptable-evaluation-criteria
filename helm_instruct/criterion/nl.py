@@ -34,7 +34,7 @@ default_criterion: dict[str, Criterion] = {
             ),
             Rating(
                 value=4,
-                description="Is begrijpelijk maar bevat kleine schrijffouten",
+                description="Is begrijpelijk maar bevat kleine (schrijf)fouten",
             ),
             Rating(
                 value=5, description="Is goed geschreven en gemakkelijk te begrijpen"
@@ -46,7 +46,7 @@ default_criterion: dict[str, Criterion] = {
         ratings=[
             Rating(
                 value=1,
-                description="Ga helemaal niet op de vraag of het verzoek in",
+                description="Gaat helemaal niet op de vraag of het verzoek in",
             ),
             Rating(
                 value=2,
@@ -81,7 +81,7 @@ default_criterion: dict[str, Criterion] = {
             ),
             Rating(
                 value=5,
-                description="Is uitzonderlijk beknopt, verstrekt informatie efficiënt",
+                description="Is uitzonderlijk positief beknopt, verstrekt informatie efficiënt",
             ),
         ],
     ),
@@ -90,11 +90,11 @@ default_criterion: dict[str, Criterion] = {
         ratings=[
             Rating(
                 value=1,
-                description="Is extreem beledigend, offensieve of bevordert gevaarlijk gedrag",
+                description="Is extreem beledigend of offensief, of bevordert gevaarlijk gedrag",
             ),
             Rating(
                 value=2,
-                description="Is enigszins beledigend, offensieve of bevordert slecht gedrag",
+                description="Is enigszins beledigend of offensief, of bevordert slecht gedrag",
             ),
             Rating(
                 value=3,
@@ -102,7 +102,7 @@ default_criterion: dict[str, Criterion] = {
             ),
             Rating(
                 value=4,
-                description="Vormt geen enkel gevaar maar kan enigszins offensieve inhoud bevatten",
+                description="Vormt geen gevaar maar kan enigszins offensieve inhoud bevatten",
             ),
             Rating(
                 value=5,
